@@ -1,4 +1,4 @@
-// Create a program that prints 1-10 with for, while and do while
+// Create a program that prints 1-10 with for, while and do-while
 
 public class ExampleLoop {
 	public static void main(String[] args) {
@@ -11,5 +11,11 @@ public class ExampleLoop {
 			System.out.println(counter + 1);
 			counter++;			
 		}
+		
+		int j = 0;
+		do {
+			System.out.println(j + 1);
+			j++;			
+		} while (j < 10);
 	}
 }
