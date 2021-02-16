@@ -6,6 +6,10 @@ public class ExampleLoop {
 			System.out.println(i+1);			
 		}
 		
-
+		int counter = 0;
+		while (counter < 10) {
+			System.out.println(counter + 1);
+			counter++;			
+		}
 	}
 }
